@@ -41,5 +41,4 @@ def Valg_af_spiller():
 
 Valg_af_spiller()
 
-#game_loop()
 
