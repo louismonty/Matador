@@ -4,18 +4,21 @@ class grunde():
             self.type = "grund"
             self.navn = navn
             self.pris = pris
+            self.købt = False
 
     class bryggeri():
         def __init__(self, navn, pris):
             self.type = "grund"
             self.navn = navn
             self.pris = pris
+            self.købt = False
 
     class færge():
         def __init__(self, navn, pris):
             self.type = "grund"
             self.navn = navn
             self.pris = pris
+            self.købt = False
 
 
 class hændelse():

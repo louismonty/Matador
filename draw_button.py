@@ -42,13 +42,12 @@ def text_display(text_size, text, text_x, text_y,screen):
     TextRect.center = (text_x,text_y)
     screen.blit(TextSurf, TextRect)
 
-def point_on_circle(angle,screen):
-    radius = 370
+def point_on_circle(angle,screen,radius,color):
     x_origin = 480
     y_origin = 480
     x = x_origin + radius * cos(angle * pi / 180)
     y = y_origin + radius * sin(angle * pi / 180)
-    pygame.draw.circle(screen, blue,(int(x),int(y)), 10)
+    pygame.draw.circle(screen, color,(int(x),int(y)), 10)
     return x,y
 
 
